@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUNG HET OO - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="#home">Aung Htet Oo</a></h1>
+            <ul>
+                <li><a href="#home" class="current">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="navbar">
+    <div class="container">
+        <h1 class="logo"><a href="#home">Aung Htet Oo</a></h1>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="current">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+    <!-- Showcase Section -->
+    <section id="home">
+        <div class="container">
+            <h1>Hello, I'm <span class="highlight">Aung Htet Oo</span></h1>
+            <h2>I'm a <span class="typing"> Software Engineer.</span></h2>
+            <div class="social-links">
+                <a href="https://github.com/aunghtetoo"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aunghtetoo/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/mathisonaung/"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="Mathison Aung.jpg" alt="Profile Image">
+                </div>
+                <div class="column right">
+                    <p>I'm a software engineer focus in web development preferredly backend.</p>
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project Title</h3>
+                    <p>Brief project description goes here.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn">View Project</a>
+                        <a href="#" class="btn">Source Code</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Title</h3>
+                    <p>Brief project description goes here.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn">View Project</a>
+                        <a href="#" class="btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <p>Get in touch with me for collaborations or opportunities.</p>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>lionelhtetmyat@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>YTU Campus, Insein Road.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <form>
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea placeholder="Message..." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <span>Created By <a href="#">Aung Htet Oo</a> | <span class="far fa-copyright"></span> 2025 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
